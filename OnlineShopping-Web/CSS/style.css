@@ -1,0 +1,242 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    background: #7a212f;
+}
+.navbar{
+    padding-top:20px;
+
+}
+
+.nav-item{
+    
+    color:white; 
+    margin-left:40px;
+    margin-bottom: 10px;
+ }
+.nav-link{
+   
+    color:white;
+    font-size:12px;
+    padding:0 0 5px 0;
+    display:unset;
+}
+.navbar-brand img{
+    width:125px;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 40px!important;
+
+}
+.navbar-toggler{
+    border:0 !important;
+    outline:none !important;
+    padding: initial !important;
+}
+.active-home{
+    border-bottom:2px solid #fff;
+}
+.nav-link:hover{
+    border-bottom:2px solid #fff;
+}
+.banner{
+    margin-top: 8%;
+    color:#fff;
+    height:600px;
+    background: #7a212f;
+}
+.banner h1{
+    margin:80px 0 50px;
+    font-weight: 600;
+    font-size: 50px;
+   
+    
+}
+.banner img{
+    max-height:500px;
+    margin-right:0;
+
+}
+.banner a{
+    padding:12px;
+    width:150px;
+    display:inline-block;
+    background: #7a212f;
+    text-decoration: none !important;
+    color:white;
+    border:2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+
+}
+.banner a:hover{
+    color:#fff;
+}
+.express-btn{
+  background: #fff !important;
+  color: #000 !important;
+  margin-right: 5px;
+}
+/*----Services--*/
+.service{
+    margin:25px 0;
+
+}
+.title{
+    padding-top:50px;
+   text-align:center;
+   font-weight: bold;
+   margin-bottom:30px;
+}
+.subtitle{
+    text-align:center;
+    margin-bottom:70px;
+    font-size:15px;
+ }
+ .service-box{
+    padding: 0 35px;
+    cursor: pointer;
+    margin-bottom:10px;
+    transition: .4s;
+    border:2px solid #7a212f;
+    
+ }
+ .service-box img{
+   width:300px;
+   height:200px;
+   margin-top:25px;
+   margin-bottom:45px;
+ }
+ .service-box h6{
+   margin-bottom:40px;
+  font-weight: bold; 
+ padding-top:40px;
+ }
+ .service-box p{
+    font-size: 14px;
+    color: #808080;
+ }
+ .fa-arrow-right{
+    font-size:22px !important;
+    margin-top:30px;
+    margin-bottom:35px;
+    cursor:pointer;
+ }
+ .service-box:hover,.active-service {
+    background: #7a212f;
+    border-radius: 5px;
+    color:#fff !important;
+    box-shadow: 10px 15px 15px 2px rgba(213,213,213,0.5);
+
+ }
+ .service-box:hover p{
+    color:white;
+ }
+ .active-service p{
+    color:#fff !important;
+
+ }
+/*----features--*/
+
+ .feature, .explore{
+    margin:200px 0;
+ }
+ .feature img{
+    max-width: 100%;
+    cursor:pointer;
+ }
+ .feature h2{
+    margin-top:100px;
+    font-weight:bold;
+    line-height: 50px;
+ }
+ .feature p , .explore p{
+    margin-top:25px;
+    margin-bottom:50px;
+    color: #808080;
+    font-size:14px;
+    line-height:18px;
+ }
+ .feature a, .explore a {
+    margin-left:240px;
+    text-decoration:none;
+    width:170px;
+    padding: 15px 10px;
+    display: block;
+    background: #7a212f;
+   color:white;
+   border-radius: 5px;
+   text-align: center;
+   font-weight:bold;
+   font-size:14px;
+   box-shadow: 0 9px 9px 1px rgb(204,204,204,0.5);
+ }
+ .explore a{
+ margin-bottom: 50px;
+ }
+ .explore h2{
+    margin-top:100px;
+    font-weight:bold;
+    line-height: 50px;
+ }
+
+ /*--------footer section----------*/
+#footer{
+    background-image: linear-gradient(to right, #9b4e59,#6e232e);
+    color:white;
+}
+.footer-img{
+    width:100%;
+}
+.footer-box{
+    padding:20px;
+}
+.footer-box img{
+    width:120px;
+    margin-bottom:20px;
+}
+.footer-box fa{
+    margin-right: 8px;
+    font-size:25px;
+    height:40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #7a212f,#4a050f);
+}
+.footer-box .form-control
+{
+    box-shadow:none !important;
+    border:none;
+    border-radius:0;
+    margin-top:25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary
+{
+    box-shadow:none;
+    border:none;
+    border-radius:0;
+    margin-top:30px;
+    background-image: linear-gradient(to right, #7a212f,#4a050f);
+}
+hr{
+    background-color: rgb(255, 255, 255);
+   height: 5px; 
+}
+.copyright{
+  margin-bottom:0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.img-fluid{
+    margin-right:0 !important;
+    width: 600px;
+    margin-left: 150px;
+    margin-top:20px;
+}
